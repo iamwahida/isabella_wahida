@@ -1,0 +1,51 @@
+body {
+  background-image: url("tarantino.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  height: 2cm;
+  background-color: azure;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: url(ITC\ Busorama\ Bold.otf);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  padding-top: 3cm;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  margin: auto;
+  padding-bottom: 2cm;
+  font-family: url(Friz\ Quadrata\ Bold.otf);
+}
+
+p {
+  display: flex;
+  font-size: 20px;
+  font-family: calibri;
+  justify-content: center;
+  text-align: center;
+}/*# sourceMappingURL=theoneandonly.css.map */
