@@ -24,4 +24,10 @@ a {
   font-family: url(ITC\ Busorama\ Bold.otf);
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.container {
+  display: flex;
+  background-color: bisque;
+  width: 80%;
 }/*# sourceMappingURL=theoneandonly.css.map */
