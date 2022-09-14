@@ -1,0 +1,88 @@
+
+@import "partials/variables";
+@import "partials/header";
+@import "partials/footer";
+
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 600px;
+    background-image: url("images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    .baby1 {
+        width: 40%;
+        text-align: left;
+        color: $color1;
+        font-size: 30px;
+        font-family:$font;
+        position: relative; top: 200px;
+        margin: 0 auto;
+        transition: all 1s linear 0.1s;
+        &:hover{
+            color: $color3;
+            transform: scale(1.2);
+        }
+    }
+    .baby2 {
+        width: 45%;
+        text-align: left;
+        color: $color1;
+        font-size: 30px;
+        font-family: $font;
+        position: relative; top: 300px;
+        margin: 0 auto;
+        transition: all 1s linear 0.1s;
+        &:hover{
+            color: $color4;
+            transform: scale(1.2);
+        }
+    }
+}
+
+.container2{
+    background-color: grey;
+    width: 100%;
+    height: 650px;
+    // background-image: url(images/naruto2.png);
+    // background-repeat: no-repeat;
+    // background-position: left;
+    // background-size: 300px;
+    
+    .naruto-img {
+        width: 20%;
+        height: 600px;
+    img {
+            float: left;
+            height: 100%;
+            width: 600px;
+            padding-left: 20px;
+    }
+}
+    .baby3 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: right;
+        
+        p{
+            width: 30%;
+            padding: 10px;
+            border: 3px solid $color2;
+            border-radius: 20px;
+            background-color: $color1;
+            font-family: $font2;
+            transition: all 1s;
+            &:hover{
+                background-color: rgb(207, 187, 7);
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+
